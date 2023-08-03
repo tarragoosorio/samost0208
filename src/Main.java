@@ -5,7 +5,7 @@ public class Main {
     }
 
     static void ex1(){
-        Triangle triangle = new Triangle(3,4,5);
+        Triangle triangle = new Triangle(3,4,5);//Arraylist <Figure> figures = new ArrayList<>();figures.add(new Triangle(1,2,3))
         double perimeter = triangle.getPerimeter();
         double area = triangle.getArea();
         System.out.println("Периметр треугольника равен " + perimeter);

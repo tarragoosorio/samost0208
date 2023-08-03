@@ -1,7 +1,5 @@
 public class Triangle extends Figure {
-    double firstSide;
-    double secondSide;
-    double thirdSide;
+    double firstSide, secondSide, thirdSide;
 
     public Triangle(double firstSide, double secondSide, double thirdSide) {
         super();
@@ -13,8 +11,7 @@ public class Triangle extends Figure {
 
     @Override
     public double getPerimeter() {
-        double perimeter = firstSide + secondSide + thirdSide;
-        return perimeter;
+        return firstSide + secondSide + thirdSide;
     }
 
     @Override

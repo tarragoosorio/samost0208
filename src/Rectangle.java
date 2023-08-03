@@ -1,6 +1,5 @@
 public class Rectangle extends Figure {
-    double width;
-    double length;
+    double width, length;
     public Rectangle(double width, double length){
         super();
         this.width = width;
@@ -8,14 +7,12 @@ public class Rectangle extends Figure {
     }
     @Override
     public double getPerimeter() {
-        double perimeter = 2*width + 2*length;
-        return perimeter;
+        return 2*width + 2*length;
     }
 
     @Override
     public double getArea() {
-        double area = width * length;
-        return area;
+        return width * length;
     }
 
 }
